@@ -13,7 +13,7 @@ Use this checklist with the coach/promotor before committing to a subject.
 
 ## 2. Trees & Surfaces stakeholder specification
 
-Use [`trees-stakeholder-spec.md`](trees-stakeholder-spec.md) to run the stakeholder review before choosing metrics or expanding the model.
+Use [`trees-stakeholder-spec.md`](trees-stakeholder-spec.md) to run the stakeholder review before choosing metrics or expanding the model. Current working direction: urban greening / heat adaptation, with nearest-counter distance retained only as a context proxy.
 
 ## 3. Three Ages — go/no-go
 
