@@ -17,6 +17,8 @@ Use [`trees-stakeholder-spec.md`](trees-stakeholder-spec.md) to run the stakehol
 
 ## 3. Three Ages — go/no-go
 
+Use [`three-ages-annotation-spec.md`](three-ages-annotation-spec.md) as the working protocol if this candidate is selected.
+
 Proceed only if all three are answered positively:
 
 - [ ] A permitted historical-image source with at least two usable epochs is identified.
