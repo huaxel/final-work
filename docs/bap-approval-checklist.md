@@ -17,7 +17,7 @@ Use [`trees-stakeholder-spec.md`](trees-stakeholder-spec.md) to run the stakehol
 
 ## 3. Three Ages — go/no-go
 
-Use [`three-ages-annotation-spec.md`](three-ages-annotation-spec.md) as the working protocol if this candidate is selected.
+Use [`three-ages-annotation-spec.md`](three-ages-annotation-spec.md) as the working protocol if this candidate is selected. Use [`three-ages-source-access.md`](three-ages-source-access.md) to track image licences and register-source access.
 
 Proceed only if all three are answered positively:
 
