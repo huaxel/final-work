@@ -27,18 +27,25 @@ The current product concept is a data product with:
 
 The FPP notes also describe a hard fallback: start with the open legal reference-rent regime and public/approved market or transaction data. Fiscal or restricted data must never be a prerequisite.
 
-## Final Work status
+## FPP versus Final Work/BAP
 
-The Final Work planning note still treats the following as candidate directions:
+These are separate projects:
+
+- **FPP — Future Proof Project:** the selected direction is *De Vier Prijzen van Brussel*.
+- **Final Work / BAP — Bachelorproef:** the brainstorming contains two different subject candidates:
+  1. **Trees & Surfaces** — trees, urban heat and street usage.
+  2. **De Drie Leeftijden van een Brussels pand** — building records, facade style and structural history.
+
+The Final Work planning note also contains other possible directions:
 
 - a forecast engine;
 - active-learning entity matching;
 - data-platform reliability.
 
-Therefore, the repository currently documents a **strong FPP direction and a possible Final Work continuation**, but the Final Work subject is not marked as formally approved. The following remain open:
+The Final Work/BAP subject is not formally approved yet. The following remain open:
 
-- confirm whether De Vier Prijzen becomes the Final Work subject;
+- choose between the two BAP subject candidates (Trees & Surfaces versus Three Ages);
 - choose the coach/promotor and team setup;
 - confirm individual/duo/group requirements;
-- align the semester-1 analysis with the semester-2 bootcamp;
-- agree which data sources and scope are acceptable with the coaches.
+- align the analysis semester with the bootcamp;
+- agree which datasets, partners and scope are acceptable with the coaches.
