@@ -1,5 +1,7 @@
 # BAP decision brief
 
+Use [`bap-approval-checklist.md`](bap-approval-checklist.md) to turn this comparison into a coach/promotor decision.
+
 The Final Work/BAP subject is still open. The two candidates are intentionally kept separate.
 
 ## Shared course requirements
@@ -56,3 +58,23 @@ Either subject should demonstrate:
 ## Decision rule
 
 Choose the subject for which a defensible MVP can be built with data that is actually accessible during the analysis phase. Treat the broader platform and city-wide automation as future work, not as prerequisites for passing the BAP.
+
+## Prototype evidence update
+
+The feasibility spikes now provide stronger evidence than the initial product sketches:
+
+- **Trees & Surfaces:** 100 managed-tree points are joined to a real WBGT raster pixel and nearest bicycle-counter distance. The interface supports a transparent exploratory signal, but the counter join remains a spatial proxy rather than a validated street-use measure.
+- **Three Ages:** 34 real Grand Place records are available, with a six-record source-linked pilot and an explicit annotation protocol. Register-year and image-derived structural claims remain pending; no unsupported historical claims are presented.
+
+## Recommendation for the approval conversation
+
+Prefer **Three Ages** if permitted historical imagery and an official register-year source can be confirmed before the analysis phase. It has the clearer bounded MVP and the stronger uncertainty/product story.
+
+Keep **Trees & Surfaces** as the fallback if image permissions cannot be secured. Its safe MVP is a descriptive analysis of one city, one heat measure and one explicitly labelled mobility proxy—not a city-wide planting optimiser.
+
+### Go/no-go checks
+
+1. Confirm the stakeholder and decision question for the chosen subject.
+2. For Three Ages, obtain permission or a reuse-safe source for at least two image epochs and identify the register-year source.
+3. For Trees & Surfaces, agree whether counter proximity is acceptable as a contextual proxy or replace it with a stronger mobility measure.
+4. Freeze the MVP after the chosen subject passes its data-access check; treat automation and city-wide scaling as stretch work.
