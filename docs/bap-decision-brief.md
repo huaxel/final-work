@@ -63,7 +63,7 @@ Choose the subject for which a defensible MVP can be built with data that is act
 
 The feasibility spikes now provide stronger evidence than the initial product sketches:
 
-- **Trees & Surfaces:** 100 managed-tree points are joined to a real WBGT raster pixel and nearest bicycle-counter distance. The interface supports a transparent exploratory signal, but the counter join remains a spatial proxy rather than a validated street-use measure.
+- **Trees & Surfaces:** 100 managed-tree points are joined to a real WBGT raster pixel and nearest bicycle-counter distance. The working MVP question is which observed tree areas combine relatively high heat-stress values with counter proximity for follow-up analysis. The interface supports a transparent exploratory signal, but the counter join remains a spatial proxy rather than a validated street-use measure.
 - **Three Ages:** 34 real Grand Place records are available, with a six-record source-linked pilot and an explicit annotation protocol. Register-year and image-derived structural claims remain pending; no unsupported historical claims are presented.
 
 ## Recommendation for the approval conversation
