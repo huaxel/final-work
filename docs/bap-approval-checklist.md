@@ -11,7 +11,11 @@ Use this checklist with the coach/promotor before committing to a subject.
 - [ ] What evidence is sufficient for a passing MVP?
 - [ ] Which stretch goals are explicitly excluded from the MVP?
 
-## 2. Three Ages — go/no-go
+## 2. Trees & Surfaces stakeholder specification
+
+Use [`trees-stakeholder-spec.md`](trees-stakeholder-spec.md) to run the stakeholder review before choosing metrics or expanding the model.
+
+## 3. Three Ages — go/no-go
 
 Proceed only if all three are answered positively:
 
@@ -21,7 +25,7 @@ Proceed only if all three are answered positively:
 
 **Proposed MVP:** six to ten source-linked Brussels buildings, two image epochs, a documented annotation protocol, and an explainable explorer.
 
-## 3. Trees & Surfaces — go/no-go
+## 4. Trees & Surfaces — go/no-go
 
 Proceed only if all three are answered positively:
 
@@ -31,7 +35,7 @@ Proceed only if all three are answered positively:
 
 **Proposed MVP:** one city, one heat measure, one labelled mobility proxy, transparent normalization and a limitations report.
 
-## 4. Decision record
+## 5. Decision record
 
 - **Date:**
 - **Participants:**

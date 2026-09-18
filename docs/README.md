@@ -8,6 +8,7 @@ This repository contains examples of previous Final Work pitches and the working
 - [`brainstorming-status.md`](brainstorming-status.md) — current project direction and open decisions.
 - [`bap-decision-brief.md`](bap-decision-brief.md) — candidate comparison and recommendation.
 - [`bap-approval-checklist.md`](bap-approval-checklist.md) — coach/promotor go/no-go worksheet.
+- [`trees-stakeholder-spec.md`](trees-stakeholder-spec.md) — proposed Trees & Surfaces decision and metric specification.
 - [`prototype-review.md`](prototype-review.md) — evidence review of both spikes.
 - [`prototype-next-iteration.md`](prototype-next-iteration.md) — definitions of done for the next evidence phase.
 - [`../prototypes/`](../prototypes/) — two dependency-free BAP feasibility spikes.
