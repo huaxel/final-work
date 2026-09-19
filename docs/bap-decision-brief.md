@@ -64,17 +64,17 @@ Choose the subject for which a defensible MVP can be built with data that is act
 The feasibility spikes now provide stronger evidence than the initial product sketches:
 
 - **Trees & Surfaces:** 100 managed-tree points are joined to a real WBGT raster pixel and nearest bicycle-counter distance. The working MVP question is which observed tree areas combine relatively high heat-stress values with counter proximity for follow-up analysis. The interface supports a transparent exploratory signal; the counter join remains a spatial proxy, now supplemented by a measured-flow context (nearest-counter mean flow for one week, 97/100 trees) and full per-point source traceability.
-- **Three Ages:** 34 real Grand Place records are available, with a six-record source-linked pilot and an explicit annotation protocol. All six register claims now carry explicit `proxy` dates: three traced from Wikidata inception claims to Brussels heritage register records (one recorded disagreement) and three from direct Brussels architectural-inventory reconstruction dates. Two modern image epochs (1996 CC0, 2022 open data) are committed as legally reusable source previews; the historical 1940s epoch is still pending.
+- **Three Ages:** 34 real Grand Place records are available, with a six-record source-linked pilot and an explicit annotation protocol. All six register claims now carry explicit `proxy` dates: three traced from Wikidata inception claims to Brussels heritage register records (one recorded disagreement) and three from direct Brussels architectural-inventory reconstruction dates. Two modern image epochs (1996 CC0, 2022 open data) and five 1941–1942 KIK-IRPA facade previews (CC BY 4.0) are committed; Grand-Place 24 and structural/aerial historical evidence remain pending.
 
 ## Recommendation for the approval conversation
 
-Prefer **Three Ages** if permitted historical imagery and an official register-year source can be confirmed before the analysis phase. It has the clearer bounded MVP and the stronger uncertainty/product story.
+Prefer **Three Ages** if the remaining historical coverage and reviewer capacity can be confirmed before the analysis phase. It has the clearer bounded MVP and the stronger uncertainty/product story.
 
 Keep **Trees & Surfaces** as the fallback if image permissions cannot be secured. Its safe MVP is a descriptive analysis of one city, one heat measure and one explicitly labelled mobility proxy—not a city-wide planting optimiser.
 
 ### Go/no-go checks
 
 1. Confirm the stakeholder and decision question for the chosen subject.
-2. For Three Ages, obtain permission or a reuse-safe source for a historical (1940s-era) image epoch — two modern epochs are already legally reusable — and confirm that the official inventory reconstruction dates meet the intended register-year semantics.
+2. For Three Ages, obtain a permitted historical view for Grand-Place 24, decide whether facade photos are sufficient or aerial structural evidence is required, and confirm that the official inventory reconstruction dates meet the intended register-year semantics.
 3. For Trees & Surfaces, use the committed measured-flow context to decide whether counter proximity stays the ranking proxy or a flow-based alternative replaces it.
 4. Freeze the MVP after the chosen subject passes its data-access check; treat automation and city-wide scaling as stretch work.
