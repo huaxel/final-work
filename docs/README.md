@@ -15,6 +15,8 @@ This repository contains examples of previous Final Work pitches and the working
 - [`three-ages-source-access.md`](three-ages-source-access.md) — historical imagery, licence, and register-source checklist.
 - [`prototype-review.md`](prototype-review.md) — evidence review of both spikes.
 - [`prototype-next-iteration.md`](prototype-next-iteration.md) — definitions of done for the next evidence phase.
-- [`../prototypes/`](../prototypes/) — two dependency-free BAP feasibility spikes.
+- [`../prototypes/`](../prototypes/) — two browser-runtime dependency-free BAP feasibility spikes, their reproducible data workflows and validation instructions.
+- [`../scripts/validate-prototypes.sh`](../scripts/validate-prototypes.sh) — canonical offline regeneration and validation gate.
+- [`../.github/workflows/validate-prototypes.yml`](../.github/workflows/validate-prototypes.yml) — CI execution of that gate with generated-file drift detection.
 
 The files in `obsidian/` preserve the original planning context. Obsidian wikilinks such as `[[FPP_planning]]` refer to the original vault notes; the repository-native copies are named `fpp-planning.md`, `fpp-product-note.md`, and `final-work-planning.md`.

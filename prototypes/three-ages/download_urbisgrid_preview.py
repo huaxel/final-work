@@ -10,6 +10,7 @@ CRS:84 returns blank tiles from this server).
 from __future__ import annotations
 
 import argparse
+import hashlib
 from pathlib import Path
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
@@ -22,6 +23,15 @@ BBOX = "4.348,50.845,4.357,50.849"
 WMS_VERSION = "1.1.1"
 SRS = "EPSG:4326"
 PNG_HEADER = b"\x89PNG\r\n\x1a\n"
+EXPECTED_SHA256 = "871d995a3753d2d03c811a5c59c1686b97b6ced87ae718a49481a743a2340ea5"
+MAX_RESPONSE_BYTES = 10 * 1024 * 1024
+
+
+def read_response(response) -> bytes:
+    body = response.read(MAX_RESPONSE_BYTES + 1)
+    if len(body) > MAX_RESPONSE_BYTES:
+        raise RuntimeError(f"WMS response exceeds {MAX_RESPONSE_BYTES:,} bytes")
+    return body
 
 
 def main() -> None:
@@ -42,13 +52,21 @@ def main() -> None:
         "bbox": BBOX,
     }
     url = f"{WMS_URL}?{urlencode(params)}"
-    response = urlopen(Request(url, headers={"User-Agent": "final-work-three-ages/1.0"}), timeout=60)
-    body = response.read()
+    with urlopen(Request(url, headers={"User-Agent": "final-work-three-ages/1.0"}), timeout=60) as response:
+        body = read_response(response)
     if not body.startswith(PNG_HEADER):
         raise RuntimeError(f"WMS returned a non-PNG response: {body[:120]!r}")
+    digest = hashlib.sha256(body).hexdigest()
+    if digest != EXPECTED_SHA256:
+        raise RuntimeError(f"2022 WMS preview checksum changed: {digest}")
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_bytes(body)
-    print(f"wrote {args.output.relative_to(ROOT)}")
+    args.output.chmod(0o644)
+    try:
+        display_output = args.output.relative_to(ROOT)
+    except ValueError:
+        display_output = args.output
+    print(f"wrote {display_output}")
     print(f"source layer: {LAYER}; bbox: {BBOX}; wms {WMS_VERSION} {SRS}")
 
 
