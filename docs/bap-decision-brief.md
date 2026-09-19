@@ -64,7 +64,7 @@ Choose the subject for which a defensible MVP can be built with data that is act
 The feasibility spikes now provide stronger evidence than the initial product sketches:
 
 - **Trees & Surfaces:** 100 managed-tree points are joined to a real WBGT raster pixel and nearest bicycle-counter distance. The working MVP question is which observed tree areas combine relatively high heat-stress values with counter proximity for follow-up analysis. The interface supports a transparent exploratory signal; the counter join remains a spatial proxy, now supplemented by a measured-flow context (nearest-counter mean flow for one week, 97/100 trees) and full per-point source traceability.
-- **Three Ages:** 34 real Grand Place records are available, with a six-record source-linked pilot and an explicit annotation protocol. Three of six register claims now carry sourced `proxy` years traced from Wikidata inception claims to Brussels heritage register records (one recorded disagreement); the other three remain pending. Two modern image epochs (1996 CC0, 2022 open data) are committed as legally reusable source previews; the historical 1940s epoch is still pending.
+- **Three Ages:** 34 real Grand Place records are available, with a six-record source-linked pilot and an explicit annotation protocol. All six register claims now carry explicit `proxy` dates: three traced from Wikidata inception claims to Brussels heritage register records (one recorded disagreement) and three from direct Brussels architectural-inventory reconstruction dates. Two modern image epochs (1996 CC0, 2022 open data) are committed as legally reusable source previews; the historical 1940s epoch is still pending.
 
 ## Recommendation for the approval conversation
 
@@ -75,6 +75,6 @@ Keep **Trees & Surfaces** as the fallback if image permissions cannot be secured
 ### Go/no-go checks
 
 1. Confirm the stakeholder and decision question for the chosen subject.
-2. For Three Ages, obtain permission or a reuse-safe source for a historical (1940s-era) image epoch — two modern epochs are already legally reusable — and identify the register-year source for the three pending cases.
+2. For Three Ages, obtain permission or a reuse-safe source for a historical (1940s-era) image epoch — two modern epochs are already legally reusable — and confirm that the official inventory reconstruction dates meet the intended register-year semantics.
 3. For Trees & Surfaces, use the committed measured-flow context to decide whether counter proximity stays the ranking proxy or a flow-based alternative replaces it.
 4. Freeze the MVP after the chosen subject passes its data-access check; treat automation and city-wide scaling as stretch work.
